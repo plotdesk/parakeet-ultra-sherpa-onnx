@@ -74,6 +74,12 @@ Words lower-cased and split at everything that is not a letter or a digit; numbe
 | Model | WER | Real-time factor |
 |---|---|---|
 | Parakeet Ultra int8 (this release) | 5.45 % | 8.8× |
+| Whisper large-v3 turbo int8 (k2-fsa), language `de` | 8.29 % | 2.4× |
+
+The same 288 clips, the same box, one after the other. Through the desktop app's whole meeting path
+(voice detection, diarization, pieces of at most 28 s) a German test meeting of 3:46 min built from 16
+FLEURS clips came out at 6.54 % (Parakeet Ultra) against 7.59 % (Whisper turbo); recognition took
+18 s against 97 s.
 
 ## Usage (sherpa-onnx, Node)
 
