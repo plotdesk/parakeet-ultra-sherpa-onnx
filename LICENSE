@@ -1,0 +1,17 @@
+Model files (encoder.int8.onnx, decoder.int8.onnx, joiner.int8.onnx, tokens.txt
+in the releases of this repository):
+
+  Creative Commons Attribution 4.0 International (CC BY 4.0)
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+  Based on parakeet-tdt-0.6b-v3 by NVIDIA (CC BY 4.0) and Parakeet Ultra by
+  Moondream (CC BY 4.0). Converted to sherpa-onnx and quantized to int8 by
+  Plotdesk; see README.md for the changes.
+
+Scripts (scripts/):
+
+  Apache License 2.0
+  https://www.apache.org/licenses/LICENSE-2.0
+
+  scripts/export_ultra.py follows export_onnx.py of k2-fsa/sherpa-onnx
+  (Copyright 2025 Xiaomi Corp., Apache License 2.0).
